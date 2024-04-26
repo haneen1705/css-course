@@ -1,0 +1,51 @@
+/* First assignment */
+.title{
+    text-transform: capitalize;
+    text-shadow:1px 0.25px 0 orangered,/* shadow-horizintal, vertical, blur, color*/
+                1.75px 0.75px 0  rgb(19, 107, 214),
+                2.25px 1.25px 0 rebeccapurple ; 
+    letter-spacing: 1px;
+}
+
+/* Second assignment */
+.one{ text-transform: capitalize;}
+.two{ text-transform: uppercase; }
+.three{ text-transform: lowercase; }
+
+/* Third assignmnet */
+.p1,
+.p2,
+.p3{
+    padding: 20px;
+    margin: 40px;
+    width: 325px;
+    background-color: #eee;
+}
+
+.p1{
+    text-overflow: ellipsis;
+}
+
+.p2{ 
+    white-space: nowrap;
+    overflow: hidden;
+ }
+.p3{ 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+ }
+
+ /* Fourth assignmnet */
+ a{
+    padding: 10px;
+    margin: 20px;
+    display:inline-block;
+    width: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: unset;
+    text-transform: capitalize;
+    background-color: rgb(14, 159, 121);
+    border-bottom: 5px solid rgb(61, 121, 95);
+ }

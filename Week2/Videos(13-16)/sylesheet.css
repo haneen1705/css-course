@@ -1,0 +1,33 @@
+/* First Assignment */
+div.parent .child .title{
+    color: red;
+}
+
+div.parent span{
+    color: blue;
+}
+
+div.parent p,
+div.title
+{
+    color: green;
+}
+
+/* Second Assignment */
+.one,
+.two,
+.three,
+.four{
+    background-color: maroon;
+    color: white;
+    padding: 20px;
+    margin: 50px;
+    width:fit-content;
+}
+
+.four{
+    width: 325px;
+    height: 10px;
+    overflow-y: hidden;
+    
+}

@@ -1,0 +1,55 @@
+/* ONE */
+.hello{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 30px;
+    border: 5px solid red;
+    max-width: 600px;
+}
+
+.hello p{
+    background-color: #ddd;
+    padding: inherit;
+    margin: inherit;
+    border: inherit;
+}
+
+/* TWO */
+.p1,
+.p2,
+.p3{
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.p1{
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+    font-style: italic;
+}
+.p2{
+    font-family: "Cairo";
+    font-weight: 700;
+}
+.p3{
+    font-family: "Jomhuria";
+    font-weight: 400;
+}
+
+/* THIRD */
+.p4,
+.p5,
+.p6{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+} 
+.p4{
+    font-size: 2.5rem;
+}
+.p5{
+    font-size: 2rem;
+}
+.p6{
+    font-size: 1.5rem; 
+
+}
