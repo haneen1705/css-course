@@ -1,16 +1,19 @@
 /* First assignment */
 .title{
     text-transform: capitalize;
-    text-shadow:1px 0.25px 0 orangered,/* shadow-horizintal, vertical, blur, color*/
-                1.75px 0.75px 0  rgb(19, 107, 214),
+    text-shadow:1px 0.25px 0 orangered,         /* shadow-horizintal, vertical, blur, color*/
+                1.75px 0.75px 0  rgb(19, 107, 214),     /* shadow can take multiple values */
                 2.25px 1.25px 0 rebeccapurple ; 
-    letter-spacing: 1px;
+
+    letter-spacing: 1px; /* the distance between letters */
 }
+/*----------------------------------------------------------------------------*/
 
 /* Second assignment */
-.one{ text-transform: capitalize;}
-.two{ text-transform: uppercase; }
-.three{ text-transform: lowercase; }
+.one{ text-transform: capitalize; } /* makes the first letter capital in all words */
+.two{ text-transform: uppercase; } /* makes all the letters capital */
+.three{ text-transform: lowercase; } /* all letters small */
+/*----------------------------------------------------------------------------*/
 
 /* Third assignmnet */
 .p1,
@@ -23,18 +26,20 @@
 }
 
 .p1{
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; /* ellipsis: shows (...) meaning there is more text which was cut */
 }
 
 .p2{ 
-    white-space: nowrap;
-    overflow: hidden;
+    /* cuts the text even if the word didn't end */
+    white-space: nowrap; /* This ensures the text stays in one line */
+    overflow: hidden; /* hides any overflowed content */
  }
 .p3{ 
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; /* shows three dots signaling that there is more text to come */
     white-space: nowrap;
-    overflow: hidden;
+    overflow: hidden; 
  }
+/*----------------------------------------------------------------------------*/
 
  /* Fourth assignmnet */
  a{
@@ -44,8 +49,17 @@
     width: 50px;
     text-align: center;
     color: white;
+
+    /* removes the under-line which comes with a link to make it look like a button */
     text-decoration: unset;
+    /* 
+        text transform: 
+        can take "capatilize": to make all words begin with a higher case letter
+        "higher-case": makes all letters of text capital
+        "lower-case": opposite of higher-case
+    */
     text-transform: capitalize;
     background-color: rgb(14, 159, 121);
     border-bottom: 5px solid rgb(61, 121, 95);
  }
+ /*----------------------------------------------------------------------------*/

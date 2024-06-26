@@ -1,13 +1,31 @@
 /* Q1 styling */
 .shape-1{
     background-color:rgb(221 221 221);
+    
+    /* 
+        text align takes the values: right / left / start / end / center
+        allows you to control the horizontal alignment of inline-level content within a block element or table-cell box
+    */
     text-align: center;
     width: 80px;
     height: 30px;
     padding: 20px;
     margin: 50px;
+
+    /* there are block elements, inline elements and inline block elements as we disscussed in html*/
     display: inline-block;
+
+    /* 
+        a line drawn around the element -inside the element (بتحاوط المحتوي الي جواها)
+        You can style each side of an element individually using properties like border-top, border-left...
+    */
     border: 10px red solid;
+
+    /*
+        a line drawn outside the border of element
+       من العنصر  space مش بياخد 
+       you can't choose a different color for each side
+    */
     outline: 10px black solid;
 }
 
@@ -23,8 +41,7 @@
     border-right: 10px green solid;
     border-top: 10px blue solid;
     border-bottom: 10px blue solid;
-    outline: 10px black solid ;
-
+    outline: 10px black solid;
 }
 
 .shape-3{
@@ -35,6 +52,13 @@
     padding: 20px;
     margin: 50px;
     display: inline-block;
+
+    /* 
+        a border takes the following values:
+        1. the weight of border
+        2. the color
+        3. the style (dashed / solid...)
+    */
     border-top: 10px red dashed;
     border-right: 10px green dashed;
     border-bottom: 10px blue dashed;
@@ -57,7 +81,13 @@
 #e2{
     background-color:rgb(221 221 221);
     width: 400px;
+
+    /* another div of the same features that takes up the same space but is hidden*/
     visibility: hidden;
+    /*
+        margin and padding can take four values for all sides: top - right - bottom - left
+        where, each side equals its corrosponding if not specified.
+    */
     padding: 10px;
     margin: 10px;
 }

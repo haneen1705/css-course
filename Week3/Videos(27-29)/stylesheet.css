@@ -1,0 +1,85 @@
+/* ONE */
+.parent{
+  width: 800px;
+  background-color: #ddd;
+  margin: auto;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 15px solid #eee;
+  font-weight: 700;
+}
+
+h3,
+.first-child p,
+.second-child p,
+.third-child p{
+  margin: 0;
+  border-bottom: 15px solid #eee;
+  padding: 10px;
+}
+
+.first-child p,
+.second-child p,
+.third-child p{
+  float: left;
+  overflow: hidden;
+  border-right: 15px solid #eee;
+}
+
+.first-child p{
+  /* function calc(): used to dynamically calculate the width of elements */
+  width:calc((100% - 90px) / 3); /* 10 * 6 =60px paddings of 10px and 15*2 = 3opx of 15px border */
+}
+
+.second-child p{
+  width:calc((100% - 55px) / 2); /* 10 * 4 = 40px paddings of 10px and 15px border */
+}
+
+.third-child p{
+  width:calc((100% - 125px) / 4);  /* 10 * 8 = 80px paddings of 10px and 15*3 = 45px of 15px border */
+}
+
+p.first,
+p.second,
+p.third{
+  border-right: 0px;
+}
+
+.third-child p{
+  border-bottom: 0px;
+}
+.clear{
+  clear: both;
+  border-bottom: 0px;
+}
+/*---------------------------------------------------------------------*/
+
+/* TWO */
+.normal,
+.one,
+.two{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: #ddd; 
+  color: black;
+  }
+
+.one{
+  background-color: #dddddd4f;
+}
+
+.two{
+  /* 
+    describes the transparency-level, 
+    where 1 is not transparent at all, 
+    0.5 is 50% see-through, 
+    and 0 is completely transparent
+  */
+  opacity: 0.2;
+}
+/*----------------------------------------------------------------------------*/

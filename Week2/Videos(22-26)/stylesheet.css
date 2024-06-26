@@ -5,20 +5,40 @@
     padding: 10px;
     margin: 30px;
     border: 5px solid red;
+    /* 
+        max width property:
+        specifies the maximum width an element can have to make a responsive design
+    */
     max-width: 600px;
 }
 
 .hello p{
     background-color: #ddd;
+    /* 
+        in this case: there is an element called "hello" which contains paragraphs 'p', 
+        which we want them to inherit the same style as the parent element (hello)
+    */
     padding: inherit;
     margin: inherit;
     border: inherit;
 }
+/*----------------------------------------------------------------------------*/
 
 /* TWO */
 .p1,
 .p2,
 .p3{
+    /* 
+        default font size in webpage = 16px
+        there are a lot of measuring units in css such as:
+        percentage (%): Relative to the parent element
+        pixels (px): absolute length (fixed)
+        "no." em (time): means times "no." of the current size of font
+        "no." rem (times root): takes the size from root element (html tag) and multiplies it with no. you give
+        Viewport: the browser window size
+        vw (viewport width): بيقيس مساحة العرض و يحط علي اساسه => dynamically sets the size
+        vh (viewport height), vmin, vmax
+     */
     font-size: 3em;
     text-transform: capitalize;
 }
@@ -34,11 +54,13 @@
     font-family: "Jomhuria";
     font-weight: 400;
 }
+/*----------------------------------------------------------------------------*/
 
 /* THIRD */
 .p4,
 .p5,
 .p6{
+    /* sans من غير شرطه*/
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
     text-align: center;
@@ -53,3 +75,4 @@
     font-size: 1.5rem; 
 
 }
+/*----------------------------------------------------------------------------*/

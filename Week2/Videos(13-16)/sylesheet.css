@@ -1,5 +1,10 @@
-/* First Assignment */
-div.parent .child .title{
+/* First Assignment */ 
+div.parent .child .title{       
+     /*                      
+        you specifiy that the div called parent which 
+        contains an element whose class = child
+        which contains an element whose class = title
+    */
     color: red;
 }
 
@@ -7,11 +12,12 @@ div.parent span{
     color: blue;
 }
 
-div.parent p,
+div.parent p, /* you can choose more than one element to style using commas to seperate them where each element is on a seperate line*/
 div.title
 {
     color: green;
 }
+/*----------------------------------------------------------------------------*/
 
 /* Second Assignment */
 .one,
@@ -22,12 +28,17 @@ div.title
     color: white;
     padding: 20px;
     margin: 50px;
+
+    /* extends as the content is increased in length*/
     width:fit-content;
 }
 
 .four{
     width: 325px;
     height: 10px;
-    overflow-y: hidden;
     
+    /* hides the content (vertical) which goes beyond the height of the div. */
+    overflow-y: hidden;
+
 }
+/*----------------------------------------------------------------------------*/
